@@ -17,7 +17,7 @@ public class ProdutoImportado extends Produto {
     }
 
     public Double precoTotal() {
-        return getPreco() * taxa;
+        return getPreco() + taxa;
     }
 
     @Override
